@@ -59,3 +59,20 @@ vecteur vecteur::somme(vecteur v, vecteur w) {
     }
 
 }
+
+bool vecteur::compare(vecteur v,vecteur w) {
+    if (v.n != w.n) {
+        return false;
+    }
+    else {
+    for ( int i=0 ; i<n ; i++) {
+        if(v.acces_vetor(i)!=w.acces_vetor(i)) {
+            return false;
+
+    }
+    return true;
+    }
+
+}
+
+}

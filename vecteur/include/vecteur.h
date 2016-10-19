@@ -13,6 +13,7 @@ class vecteur
         void print_vector();
         vecteur somme(vecteur, vecteur);
         int n;
+        bool compare(vecteur,vecteur);
     protected:
     private:
         float *toto ;

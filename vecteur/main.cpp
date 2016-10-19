@@ -7,7 +7,6 @@ int main()
     int n;
     int m;
     cout << "Hello world!" << endl;
-    cout << " Le changement " << endl;
     cout << "Entrer un nombre entier du premiere vecteur"<<endl;
     cin>>n;
     vecteur a(n);
@@ -19,9 +18,10 @@ int main()
     cout << "Entrer un nombre entier du deuxieme vecteur"<<endl;
     cin>>m;
     vecteur b(m);
+    b.n=m;
 
     for (int i=0; i<m ; i++) {
-        b.set_vector(i,i*2+3);
+        b.set_vector(i,i);
     }
     cout<< " 2er Vecteur " <<endl;
     b.print_vector();
@@ -36,5 +36,6 @@ int main()
 
     }
 
+    cout <<" Les deux vecteurs sont : "<< a.compare(a,b) <<endl;
     return 0;
 }
