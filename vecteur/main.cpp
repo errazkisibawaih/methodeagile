@@ -7,6 +7,7 @@ int main()
     int n;
     int m;
     cout << "Hello world!" << endl;
+    cout << " Le changement " << endl;
     cout << "Entrer un nombre entier du premiere vecteur"<<endl;
     cin>>n;
     vecteur a(n);
