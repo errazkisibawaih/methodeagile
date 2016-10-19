@@ -21,7 +21,7 @@ int main()
     vecteur b(m);
 
     for (int i=0; i<m ; i++) {
-        b.set_vector(i,i+1);
+        b.set_vector(i,i*2+3);
     }
     cout<< " 2er Vecteur " <<endl;
     b.print_vector();
