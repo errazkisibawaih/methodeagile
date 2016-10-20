@@ -27,6 +27,7 @@ void vecteur::set_vector(int j,int x) {
 void vecteur::print_vector() {
     for( int a = 0; a < this->n; a++ ) {
         cout <<  this->toto[a] << endl;
+        cout << "test"
     }
 }
 
