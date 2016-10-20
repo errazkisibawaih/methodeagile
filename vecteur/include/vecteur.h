@@ -14,6 +14,7 @@ class vecteur
         vecteur somme(vecteur, vecteur);
         int n;
         bool compare(vecteur,vecteur);
+        float sommevecteur();
     protected:
     private:
         float *toto ;

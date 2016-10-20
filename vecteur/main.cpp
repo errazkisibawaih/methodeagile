@@ -37,5 +37,6 @@ int main()
     }
 
     cout <<" Les deux vecteurs sont : "<< a.compare(a,b) <<endl;
+    cout << " Somme des deux vecteurs :" << a.sommevecteur() << endl;
     return 0;
 }

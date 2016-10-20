@@ -26,7 +26,7 @@ void vecteur::set_vector(int j,int x) {
 
 void vecteur::print_vector() {
     for( int a = 0; a < this->n; a++ ) {
-        cout <<  this->toto[a] << endl;
+        cout << a+1 << " valeur : " <<this->toto[a] << endl;
     }
 }
 
@@ -75,4 +75,12 @@ bool vecteur::compare(vecteur v,vecteur w) {
 
 }
 
+}
+
+float vecteur::sommevecteur() {
+    float s=0;
+    for ( int i=0 ; i<this->n ; i++) {
+        s=s+this->acces_vetor(i);
+    }
+    return s;
 }
