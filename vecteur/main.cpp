@@ -36,6 +36,9 @@ int main()
 
     }
 
-    cout <<" Les deux vecteurs sont : "<< a.compare(a,b) <<endl;
+a.compare(a, b);
+    //cout <<" Les deux vecteurs sont : "<< a.compare(a,b) <<endl;
     return 0;
+
+    cout << "modification"
 }
